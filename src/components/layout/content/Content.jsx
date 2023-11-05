@@ -31,6 +31,9 @@ const Content = () => (
       <Route path="/useCallback">
         <UseCallback />
       </Route>
+      <Route path="/useMemo">
+        <UseMemo />
+      </Route>
       <Route path="*">
         <NotFound />
       </Route>
