@@ -37,6 +37,9 @@ const Content = () => (
       <Route path="/useContext">
         <UseContext />
       </Route>
+      <Route path="/useReducer">
+        <UseReducer />
+      </Route>
       <Route path="*">
         <NotFound />
       </Route>
