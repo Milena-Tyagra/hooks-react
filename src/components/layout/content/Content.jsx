@@ -40,6 +40,9 @@ const Content = () => (
       <Route path="/useReducer">
         <UseReducer />
       </Route>
+      <Route path="/useCustom">
+        <UseCustom />
+      </Route>
       <Route path="*">
         <NotFound />
       </Route>

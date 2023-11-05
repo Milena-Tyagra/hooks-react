@@ -38,3 +38,19 @@ body {
   align-items: center;
   text-align: center;
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0 10px 0;
+}
+
+.card-state {
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid #594045;
+  display: flex;
+  justify-content: center;
+}
