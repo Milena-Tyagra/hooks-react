@@ -5,6 +5,12 @@ import { Switch, Route } from "react-router-dom";
 import Home from "../../../views/examples/Home";
 import UseState from "../../../views/examples/UseState";
 import UseEffect from "../../../views/examples/UseEffect";
+import UseRef from "../../../views/examples/UseRef";
+import UseCallback from "../../../views/examples/UseCallback";
+import UseMemo from "../../../views/examples/UseMemo";
+import UseContext from "../../../views/examples/UseContext";
+import UseReducer from "../../../views/examples/UseReducer";
+import UseCustom from "../../../views/examples/UseCustom";
 import NotFound from "../../../views/examples/NotFound";
 
 const Content = () => (
@@ -18,6 +24,9 @@ const Content = () => (
       </Route>
       <Route path="/useEffect">
         <UseEffect />
+      </Route>
+      <Route path="/useRef">
+        <UseRef />
       </Route>
       <Route path="*">
         <NotFound />
