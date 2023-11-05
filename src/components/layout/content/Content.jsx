@@ -28,6 +28,9 @@ const Content = () => (
       <Route path="/useRef">
         <UseRef />
       </Route>
+      <Route path="/useCallback">
+        <UseCallback />
+      </Route>
       <Route path="*">
         <NotFound />
       </Route>
