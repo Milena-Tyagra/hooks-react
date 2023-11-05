@@ -4,6 +4,7 @@
   background-color: #ececec;
   padding: 30px;
   overflow: auto;
+  width: 80vw;
 }
 
 .Content > * {
