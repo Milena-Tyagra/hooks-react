@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 
 import Home from "../../../views/examples/Home";
 import UseState from "../../../views/examples/UseState";
+import UseEffect from "../../../views/examples/UseEffect";
 import NotFound from "../../../views/examples/NotFound";
 
 const Content = () => (
@@ -14,6 +15,9 @@ const Content = () => (
       </Route>
       <Route path="/useState">
         <UseState />
+      </Route>
+      <Route path="/useEffect">
+        <UseEffect />
       </Route>
       <Route path="*">
         <NotFound />
