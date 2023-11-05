@@ -1,0 +1,1 @@
+Baixe as bibibliotecas com npm install e rode o projeto com npm run start
