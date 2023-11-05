@@ -34,6 +34,9 @@ const Content = () => (
       <Route path="/useMemo">
         <UseMemo />
       </Route>
+      <Route path="/useContext">
+        <UseContext />
+      </Route>
       <Route path="*">
         <NotFound />
       </Route>
